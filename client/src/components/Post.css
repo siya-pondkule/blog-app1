@@ -1,0 +1,82 @@
+/* client/src/components/Post.css */
+.post-container {
+  max-width: 800px; /* Maximum width for the post container */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Padding around the container */
+  font-family: 'Arial', sans-serif; /* Font for the text */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.post-title {
+  color: #333; /* Dark color for the title */
+  text-align: center; /* Center the title */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+.post-image {
+  width: 100%; /* Full width image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for images */
+  margin-bottom: 20px; /* Space below the image */
+}
+
+.post-body {
+  color: #555; /* Lighter text color */
+  line-height: 1.6; /* Improve line height for readability */
+  margin-bottom: 30px; /* Space below the post body */
+}
+
+.comments-title {
+  margin-top: 40px; /* Space above comments title */
+  font-size: 1.5em; /* Larger font size */
+  color: #333; /* Dark color for comments title */
+}
+
+.comment-form {
+  display: flex; /* Flexbox for layout */
+  flex-direction: column; /* Column layout */
+}
+
+.comment-input {
+  padding: 10px; /* Padding inside textarea */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+  resize: vertical; /* Allow vertical resizing */
+  margin-bottom: 10px; /* Space below textarea */
+}
+
+.submit-button {
+  padding: 10px 15px; /* Padding for the button */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white; /* White text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.submit-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.comments-list {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+}
+
+.comment-item {
+  padding: 10px; /* Padding for each comment item */
+  border-bottom: 1px solid #ddd; /* Light border between comments */
+}
+
+.comment-item:last-child {
+  border-bottom: none; /* Remove border for last comment */
+}
+
+.error-message {
+  color: red; /* Red color for error messages */
+  text-align: center; /* Center the error message */
+}

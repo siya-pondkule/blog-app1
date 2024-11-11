@@ -1,0 +1,61 @@
+/* client/src/components/Home.css */
+.home-container {
+  max-width: 800px; /* Maximum width for the home container */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Padding around the container */
+  font-family: 'Arial', sans-serif; /* Font for the text */
+}
+
+.home-title {
+  text-align: center; /* Center the title */
+  color: #333; /* Dark color for the title */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+.post-list {
+  display: grid; /* Use grid for layout */
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive columns */
+  gap: 20px; /* Space between cards */
+}
+
+.post-card {
+  background-color: #fff; /* White background for post cards */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  overflow: hidden; /* Prevent overflow */
+  transition: transform 0.2s; /* Smooth scale transition */
+}
+
+.post-card:hover {
+  transform: scale(1.02); /* Slightly scale up on hover */
+}
+
+.post-title {
+  margin: 10px; /* Space around the title */
+  font-size: 1.5em; /* Larger font size */
+}
+
+.post-link {
+  text-decoration: none; /* Remove underline from link */
+  color: #007bff; /* Bootstrap primary color */
+}
+
+.post-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.post-image {
+  width: 100%; /* Full width image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.post-body {
+  padding: 10px 15px; /* Padding for post body */
+  color: #555; /* Lighter text color */
+}
+
+.error-message {
+  color: red; /* Red color for error messages */
+  text-align: center; /* Center the error message */
+}

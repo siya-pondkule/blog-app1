@@ -1,0 +1,63 @@
+/* client/src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif; /* Modern font */
+  background-color: #f4f4f4; /* Light background */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px; /* Max width for larger screens */
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Padding inside the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background: white; /* White background for content */
+  border-radius: 8px; /* Rounded corners */
+}
+
+h1, h2 {
+  color: #333; /* Dark color for headers */
+}
+
+a {
+  text-decoration: none; /* Remove underline from links */
+  color: #007bff; /* Primary color */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+nav {
+  background-color: #007bff; /* Navbar background */
+  padding: 10px; /* Navbar padding */
+}
+
+nav ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  display: flex; /* Flex layout for nav items */
+}
+
+nav li {
+  margin-right: 20px; /* Space between nav items */
+}
+
+nav a {
+  color: white; /* White text for nav links */
+  font-weight: bold; /* Bold font */
+}
+
+nav button {
+  background-color: #dc3545; /* Bootstrap danger color */
+  color: white; /* White text */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  padding: 5px 10px; /* Padding */
+}
+
+nav button:hover {
+  background-color: #c82333; /* Darker shade on hover */
+}

@@ -1,0 +1,49 @@
+/* client/src/components/Signup.css */
+.signup-container {
+  max-width: 400px; /* Maximum width for the signup form */
+  margin: 0 auto; /* Center the form */
+  padding: 20px; /* Padding around the form */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.signup-title {
+  text-align: center; /* Center the title */
+  color: #333; /* Dark color for the title */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+.input-group {
+  margin-bottom: 15px; /* Space between input fields */
+}
+
+.input-field {
+  width: 100%; /* Full width inputs */
+  padding: 10px; /* Padding inside inputs */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+}
+
+.submit-button {
+  width: 100%; /* Full width button */
+  padding: 10px; /* Padding for the button */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white; /* White text color */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+  font-size: 16px; /* Font size */
+}
+
+.submit-button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.error-message {
+  color: red; /* Red color for error messages */
+  text-align: center; /* Center the error message */
+}
